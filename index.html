@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strony WWW i Wizytówki Google dla firm z Olsztyna | Szymon-Dev</title>
+    <meta name="description" content="Szybkie strony internetowe w HTML/CSS i Wizytówki Google dla rzemieślników i lokalnych firm z Olsztyna i okolic. Darmowa wycena, płatność po akceptacji projektu. Wizytówka Google 100 zł, strona One-Page 400 zł, pakiet kombo 500 zł.">
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
+    <meta name="color-scheme" content="light dark">
+
+    <!-- Udostępnianie w social mediach (po wdrożeniu dodaj og:url i og:image 1200x630) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:title" content="Strony WWW i Wizytówki Google dla firm z Olsztyna">
+    <meta property="og:description" content="Profesjonalna strona i widoczność w Google za ułamek ceny agencji. Darmowa wycena, płatność po akceptacji projektu.">
+
+    <!-- TODO po wdrożeniu: <link rel="canonical" href="https://TWOJA-DOMENA.pl/"> -->
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23b45309'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='16' font-weight='700' text-anchor='middle' fill='white'%3ESD%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Dane strukturalne dla lokalnego SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Szymon-Dev",
+        "description": "Tworzenie stron internetowych i konfiguracja Wizytówek Google dla lokalnych firm.",
+        "telephone": "+48662816741",
+        "email": "michalowski.dev@wp.pl",
+        "areaServed": { "@type": "City", "name": "Olsztyn" },
+        "address": { "@type": "PostalAddress", "addressLocality": "Olsztyn", "addressCountry": "PL" }
+    }
+    </script>
+</head>
+<body>
+
+    <a class="skip-link" href="#main">Przejdź do treści</a>
+
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="#top">Szymon-Dev</a>
+
+            <nav class="site-nav" aria-label="Główna nawigacja">
+                <ul>
+                    <li><a href="#uslugi">Usługi i Ceny</a></li>
+                    <li><a href="#realizacje">Realizacje</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <a class="btn btn--primary btn--small site-header__cta" href="#kontakt">Darmowa wycena</a>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Sekcja Hero -->
+        <section class="hero" id="top">
+            <div class="container hero__inner">
+                <div class="hero__copy">
+                    <p class="eyebrow">Olsztyn i okolice</p>
+                    <h1>Profesjonalna strona i <span class="mark">widoczność w Google</span> za ułamek ceny agencji</h1>
+                    <p class="hero__lead">Nie musisz przepłacać, żeby wyprzedzić lokalną konkurencję. Tworzę błyskawiczne strony internetowe i konfiguruję Wizytówki Google w uczciwych stawkach – stworzonych z myślą o budżetach lokalnych usługodawców.</p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#kontakt">Zamów darmową wycenę</a>
+                        <a class="btn btn--secondary" href="tel:+48662816741">Zadzwoń teraz</a>
+                    </div>
+                </div>
+
+                <!-- Ilustracja: strona na telefonie + wynik w Mapach Google (czysto dekoracyjna) -->
+                <div class="visual" aria-hidden="true">
+                    <div class="device">
+                        <span class="device__notch"></span>
+                        <span class="device__hero"></span>
+                        <span class="device__body">
+                            <i class="ln ln--title"></i>
+                            <i class="ln"></i>
+                            <i class="ln ln--short"></i>
+                            <i class="ln ln--btn"></i>
+                        </span>
+                    </div>
+
+                    <div class="maps-card">
+                        <span class="maps-card__pin"></span>
+                        <span class="maps-card__text">
+                            <i class="ln ln--title"></i>
+                            <span class="stars">★★★★★</span>
+                            <small>Otwarte · Olsztyn</small>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="trust" aria-label="Dlaczego warto">
+            <div class="container">
+                <ul class="trust__list">
+                    <li>Darmowa wycena</li>
+                    <li>Gotowe w kilka dni</li>
+                    <li>Płatność po akceptacji projektu</li>
+                    <li>Pomoc z domeną i hostingiem</li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <section class="section" id="uslugi" aria-labelledby="uslugi-title">
+            <div class="container">
+                <header class="section__head">
+                    <h2 id="uslugi-title">Oferta i Pakiety na Start</h2>
+                    <p>Wybierz rozwiązanie dopasowane do Twojego biznesu</p>
+                </header>
+
+                <ul class="cards">
+                    <li class="card">
+                        <span class="card__num" aria-hidden="true">01</span>
+                        <h3>Wizytówka Google</h3>
+                        <p class="card__price"><span class="visually-hidden">Cena: </span>100 zł</p>
+                        <p>Kompletne założenie i optymalizacja profilu w Mapach Google. Twoja firma na samej górze, gdy klient szuka fachowca w okolicy.</p>
+                        <ul class="checklist">
+                            <li>Założenie profilu w Mapach Google</li>
+                            <li>Optymalizacja profilu</li>
+                            <li>Widoczność dla klientów z okolicy</li>
+                        </ul>
+                        <a class="btn btn--secondary" href="#kontakt" data-package="Wizytówka Google">Zamów wycenę</a>
+                    </li>
+
+                    <li class="card">
+                        <span class="card__num" aria-hidden="true">02</span>
+                        <h3>Strona One-Page</h3>
+                        <p class="card__price"><span class="visually-hidden">Cena: </span>400 zł</p>
+                        <p>Nowoczesna, błyskawiczna strona w HTML/CSS idealna na telefon. Bez zbędnego kodu, bez WordPressa, gotowa w kilka dni.</p>
+                        <ul class="checklist">
+                            <li>Strona w HTML/CSS, bez WordPressa</li>
+                            <li>Dopasowana do telefonów</li>
+                            <li>Gotowa w kilka dni</li>
+                            <li>Pomoc z domeną i hostingiem</li>
+                        </ul>
+                        <a class="btn btn--secondary" href="#kontakt" data-package="Strona One-Page">Zamów wycenę</a>
+                    </li>
+
+                    <li class="card card--featured">
+                        <span class="card__badge">Najczęściej wybierany</span>
+                        <span class="card__num" aria-hidden="true">03</span>
+                        <h3>Pakiet Kombo (Wszystko)</h3>
+                        <p class="card__price"><span class="visually-hidden">Cena: </span>500 zł</p>
+                        <p>Najchętniej wybierany zestaw: Strona One-Page + w pełni zoptymalizowana Wizytówka Google. Pełna widoczność w internecie.</p>
+                        <ul class="checklist">
+                            <li>Strona One-Page</li>
+                            <li>Zoptymalizowana Wizytówka Google</li>
+                            <li>Pomoc z domeną i hostingiem</li>
+                            <li>Pełna widoczność w internecie</li>
+                        </ul>
+                        <a class="btn btn--primary" href="#kontakt" data-package="Pakiet Kombo">Zamów wycenę</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        
+        <section class="section section--alt" id="jak-to-dziala" aria-labelledby="proces-title">
+            <div class="container">
+                <header class="section__head">
+                    <h2 id="proces-title">Jak to działa</h2>
+                    <p>Trzy proste kroki, bez ryzyka po Twojej stronie</p>
+                </header>
+
+                <ol class="steps">
+                    <li class="step">
+                        <span class="step__num" aria-hidden="true">1</span>
+                        <h3>Rozmowa i darmowa wycena</h3>
+                        <p>Piszesz lub dzwonisz, opowiadasz o swojej firmie, a ja przygotowuję konkretną wycenę. Nic Cię to nie kosztuje.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__num" aria-hidden="true">2</span>
+                        <h3>Projekt i akceptacja</h3>
+                        <p>Przygotowuję stronę, którą oceniasz. Płacisz dopiero po akceptacji projektu.</p>
+                    </li>
+                    <li class="step">
+                        <span class="step__num" aria-hidden="true">3</span>
+                        <h3>Publikacja</h3>
+                        <p>Strona jest gotowa w kilka dni. Pomagam z domeną i hostingiem, żeby klienci mogli Cię znaleźć.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+       
+        <section class="section" id="realizacje" aria-labelledby="realizacje-title">
+            <div class="container">
+                <header class="section__head">
+                    <h2 id="realizacje-title">Wybrane Realizacje</h2>
+                    <p>Tak może wyglądać Twoja strona – przykładowe projekty pokazowe dla firm z Olsztyna i okolic</p>
+                </header>
+
+                <ul class="projects">
+                    <li class="project">
+                        <div class="mock" aria-hidden="true"><span class="mock__bar"></span><span class="mock__hero"></span><span class="mock__row"><i></i><i></i><i></i></span></div>
+                        <h3>Mechanik / Warsztat</h3>
+                        <p>Usługi, cennik i przycisk „Zadzwoń” widoczny od razu na telefonie.</p>
+                        <span class="tag">Projekt pokazowy</span>
+                    </li>
+                    <li class="project">
+                        <div class="mock" aria-hidden="true"><span class="mock__bar"></span><span class="mock__hero"></span><span class="mock__row"><i></i><i></i><i></i></span></div>
+                        <h3>Usługi Budowlane</h3>
+                        <p>Zakres prac, obszar działania i formularz zapytania o wycenę.</p>
+                        <span class="tag">Projekt pokazowy</span>
+                    </li>
+                    <li class="project">
+                        <div class="mock" aria-hidden="true"><span class="mock__bar"></span><span class="mock__hero"></span><span class="mock__row"><i></i><i></i><i></i></span></div>
+                        <h3>Agroturystyka</h3>
+                        <p>Opis pokoi, lokalizacja i szybki kontakt dla gości.</p>
+                        <span class="tag">Projekt pokazowy</span>
+                    </li>
+                    <li class="project">
+                        <div class="mock" aria-hidden="true"><span class="mock__bar"></span><span class="mock__hero"></span><span class="mock__row"><i></i><i></i><i></i></span></div>
+                        <h3>Stolarz / Rzemieślnik</h3>
+                        <p>Prezentacja wykonywanych prac i prosty kontakt w kilku kliknięciach.</p>
+                        <span class="tag">Projekt pokazowy</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+          
+        <section class="section section--alt" id="o-mnie" aria-labelledby="o-mnie-title">
+            <div class="container about">
+                <div class="about__avatar" aria-hidden="true">SM</div>
+                <div class="about__text">
+                    <h2 id="o-mnie-title">Cześć, jestem Szymon</h2>
+                    <p>Tworzę proste, szybkie strony internetowe i konfiguruję Wizytówki Google dla rzemieślników oraz lokalnych firm z Olsztyna i okolic. Zamiast rozbudowanych systemów stawiam na lekki kod, który błyskawicznie wczytuje się na telefonie.</p>
+<p>Jestem uczniem technikum informatycznego i pracujesz bezpośrednio ze mną, a nie z wielką agencją. Mówię prostym językiem i dbam o to, żeby Twoja firma była łatwa do znalezienia w sieci.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="section" id="faq" aria-labelledby="faq-title">
+            <div class="container container--narrow">
+                <header class="section__head">
+                    <h2 id="faq-title">Najczęstsze pytania</h2>
+                </header>
+
+                <div class="faq">
+                    <details class="faq__item">
+                        <summary>Ile trwa zrobienie strony?</summary>
+                        <p>Strona One-Page jest gotowa w kilka dni. Dokładny termin podaję przy darmowej wycenie.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>Kiedy płacę?</summary>
+                        <p>Płacisz po akceptacji projektu. Najpierw oceniasz, jak strona wygląda, a dopiero potem rozliczamy się za pracę.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>Czy wycena naprawdę jest darmowa?</summary>
+                        <p>Tak. Opisz krótko, czym się zajmujesz, a wrócę do Ciebie z konkretną propozycją. Nic Cię to nie kosztuje.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>Czy pomożesz z domeną i hostingiem?</summary>
+                        <p>Tak, pomogę z wyborem i konfiguracją domeny oraz hostingu. Szczegóły ustalamy podczas darmowej wyceny.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>Dlaczego strona w HTML/CSS, a nie WordPress?</summary>
+                        <p>Taka strona jest lżejsza, szybciej wczytuje się na telefonie i nie wymaga ciągłych aktualizacji wtyczek. Dla jednostronicowej wizytówki firmy to w zupełności wystarcza.</p>
+                    </details>
+                    <details class="faq__item">
+                        <summary>Co to jest Wizytówka Google i po co mi ona?</summary>
+                        <p>To profil Twojej firmy w Mapach Google i wyszukiwarce. Dzięki niemu klienci z okolicy widzą Twoją firmę, telefon i lokalizację, kiedy szukają fachowca.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="section section--alt" id="kontakt" aria-labelledby="kontakt-title">
+            <div class="container contact">
+                <div class="contact__info">
+                    <h2 id="kontakt-title">Zacznijmy współpracę</h2>
+                    <p>Chcesz, żeby klienci z okolic w końcu znaleźli Twoją firmę? Zadzwoń lub napisz – odpowiadam szybko. Wycena jest darmowa, a płacisz dopiero po akceptacji projektu.</p>
+
+                    <ul class="contact__list">
+                        <li><span>Obszar działania</span> Olsztyn i okolice</li>
+                        <li><span>Telefon</span> <a href="tel:+48662816741">+48 662 816 741</a></li>
+                        <li><span>E-mail</span> <a href="mailto:michalowski.dev@wp.pl">michalowski.dev@wp.pl</a></li>
+                    </ul>
+                </div>
+
+                <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="TUTAJ-WKLEJ-SWÓJ-KLUCZ">
+                    <input type="hidden" name="subject" value="Nowe zapytanie ze strony Szymon-Dev">
+                    <!-- Pułapka na boty (Web3Forms odrzuca zgłoszenia z zaznaczonym polem) -->
+                    <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off">
+
+                    <div class="field">
+                        <label for="f-name">Twoje Imię / Nazwa Firmy</label>
+                        <input id="f-name" type="text" name="name" autocomplete="name" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="f-contact">Twój Numer Telefonu</label>
+                        <input id="f-contact" type="tel" name="contact" autocomplete="tel" inputmode="tel" required>
+                    </div>
+
+                    <div class="field">
+                        <label for="f-package">Co Cię interesuje?</label>
+                        <select id="f-package" name="package">
+                            <option>Nie wiem jeszcze – potrzebuję porady</option>
+                            <option>Wizytówka Google</option>
+                            <option>Strona One-Page</option>
+                            <option>Pakiet Kombo</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="f-message">Czym się zajmujesz / O co pytasz?</label>
+                        <textarea id="f-message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <button class="btn btn--primary" type="submit">Wyślij zapytanie</button>
+                    <p class="form__note">Dane z formularza wykorzystam wyłącznie do odpowiedzi na Twoje zapytanie.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container site-footer__inner">
+            <p>&copy; 2026 Szymon Michalowski. Wszelkie prawa zastrzeżone.</p>
+            <p>Projekt i realizacja: <a href="https://szymonmichalowski.pl">Szymon Michalowski</a></p>
+        </div>
+    </footer>
+
+    <!-- Przyklejony pasek na telefonie: szybki kontakt zawsze pod kciukiem -->
+    <div class="mobile-bar">
+        <a class="btn btn--secondary" href="tel:+48662816741">Zadzwoń</a>
+        <a class="btn btn--primary" href="#kontakt">Darmowa wycena</a>
+    </div>
+
+    <script>
+        document.querySelectorAll('[data-package]').forEach(function (link) {
+            link.addEventListener('click', function () {
+                var select = document.getElementById('f-package');
+                if (select) select.value = link.dataset.package;
+            });
+        });
+
+        // Pasek mobilny znika, gdy widoczna jest sekcja kontaktu
+        var bar = document.querySelector('.mobile-bar');
+        var contact = document.getElementById('kontakt');
+        if (bar && contact && 'IntersectionObserver' in window) {
+            new IntersectionObserver(function (entries) {
+                bar.classList.toggle('is-hidden', entries[0].isIntersecting);
+            }, { threshold: 0.15 }).observe(contact);
+        }
+    </script>
+</body>
+</html>
