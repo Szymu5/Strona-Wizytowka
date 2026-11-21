@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Strony WWW i Wizytówki Google dla firm z Olsztyna | Szymon-Dev</title>
-    <meta name="description" content="Szybkie strony internetowe w HTML/CSS i Wizytówki Google dla rzemieślników i lokalnych firm z Olsztyna i okolic. Darmowa wycena, płatność po akceptacji projektu. Wizytówka Google 100 zł, strona One-Page 400 zł, pakiet kombo 500 zł.">
+    <title>Strony WWW i Wizytówki Google dla firm z Olsztyna i okolic | Szymon-Dev</title>
+    <meta name="description" content="Szybkie strony internetowe w HTML/CSS i Wizytówki Google dla rzemieślników i lokalnych firm z Olsztyna, Gietrzwałdu i okolic. Darmowa wycena, płatność po akceptacji projektu. Wizytówka Google 100 zł, strona One-Page 400 zł, pakiet kombo 500 zł.">
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
     <meta name="color-scheme" content="light dark">
 
-    <!-- Udostępnianie w social mediach (po wdrożeniu dodaj og:url i og:image 1200x630) -->
+    <!-- Udostępnianie w social mediach -->
     <meta property="og:type" content="website">
     <meta property="og:locale" content="pl_PL">
-    <meta property="og:title" content="Strony WWW i Wizytówki Google dla firm z Olsztyna">
+    <meta property="og:title" content="Strony WWW i Wizytówki Google dla firm z Olsztyna i okolic">
     <meta property="og:description" content="Profesjonalna strona i widoczność w Google za ułamek ceny agencji. Darmowa wycena, płatność po akceptacji projektu.">
-
-    <!-- TODO po wdrożeniu: <link rel="canonical" href="https://TWOJA-DOMENA.pl/"> -->
+    <meta property="og:url" content="https://szymon-dev.pl/">
+    <link rel="canonical" href="https://szymon-dev.pl/">
 
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23b45309'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='16' font-weight='700' text-anchor='middle' fill='white'%3ESD%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="style.css">
@@ -29,7 +29,10 @@
         "description": "Tworzenie stron internetowych i konfiguracja Wizytówek Google dla lokalnych firm.",
         "telephone": "+48662816741",
         "email": "michalowski.dev@wp.pl",
-        "areaServed": { "@type": "City", "name": "Olsztyn" },
+        "areaServed": [
+            { "@type": "City", "name": "Olsztyn" },
+            { "@type": "City", "name": "Gietrzwałd" }
+        ],
         "address": { "@type": "PostalAddress", "addressLocality": "Olsztyn", "addressCountry": "PL" }
     }
     </script>
@@ -60,7 +63,7 @@
         <section class="hero" id="top">
             <div class="container hero__inner">
                 <div class="hero__copy">
-                    <p class="eyebrow">Olsztyn i okolice</p>
+                    <p class="eyebrow">Olsztyn, Gietrzwałd i okolice</p>
                     <h1>Profesjonalna strona i <span class="mark">widoczność w Google</span> za ułamek ceny agencji</h1>
                     <p class="hero__lead">Nie musisz przepłacać, żeby wyprzedzić lokalną konkurencję. Tworzę błyskawiczne strony internetowe i konfiguruję Wizytówki Google w uczciwych stawkach – stworzonych z myślą o budżetach lokalnych usługodawców.</p>
 
@@ -70,7 +73,7 @@
                     </div>
                 </div>
 
-                <!-- Ilustracja: strona na telefonie + wynik w Mapach Google (czysto dekoracyjna) -->
+                <!-- Ilustracja: strona na telefonie + wynik w Mapach Google -->
                 <div class="visual" aria-hidden="true">
                     <div class="device">
                         <span class="device__notch"></span>
@@ -88,14 +91,13 @@
                         <span class="maps-card__text">
                             <i class="ln ln--title"></i>
                             <span class="stars">★★★★★</span>
-                            <small>Otwarte · Olsztyn</small>
+                            <small>Otwarte · Olsztyn i okolice</small>
                         </span>
                     </div>
                 </div>
             </div>
         </section>
 
-       
         <section class="trust" aria-label="Dlaczego warto">
             <div class="container">
                 <ul class="trust__list">
@@ -107,7 +109,6 @@
             </div>
         </section>
 
-        
         <section class="section" id="uslugi" aria-labelledby="uslugi-title">
             <div class="container">
                 <header class="section__head">
@@ -161,7 +162,6 @@
             </div>
         </section>
 
-        
         <section class="section section--alt" id="jak-to-dziala" aria-labelledby="proces-title">
             <div class="container">
                 <header class="section__head">
@@ -189,12 +189,11 @@
             </div>
         </section>
 
-       
         <section class="section" id="realizacje" aria-labelledby="realizacje-title">
             <div class="container">
                 <header class="section__head">
                     <h2 id="realizacje-title">Wybrane Realizacje</h2>
-                    <p>Tak może wyglądać Twoja strona – przykładowe projekty pokazowe dla firm z Olsztyna i okolic</p>
+                    <p>Tak może wyglądać Twoja strona – przykładowe projekty pokazowe dla firm z Olsztyna, Gietrzwałdu i okolic</p>
                 </header>
 
                 <ul class="projects">
@@ -226,19 +225,17 @@
             </div>
         </section>
 
-          
         <section class="section section--alt" id="o-mnie" aria-labelledby="o-mnie-title">
             <div class="container about">
                 <div class="about__avatar" aria-hidden="true">SM</div>
                 <div class="about__text">
                     <h2 id="o-mnie-title">Cześć, jestem Szymon</h2>
-                    <p>Tworzę proste, szybkie strony internetowe i konfiguruję Wizytówki Google dla rzemieślników oraz lokalnych firm z Olsztyna i okolic. Zamiast rozbudowanych systemów stawiam na lekki kod, który błyskawicznie wczytuje się na telefonie.</p>
-<p>Jestem uczniem technikum informatycznego i pracujesz bezpośrednio ze mną, a nie z wielką agencją. Mówię prostym językiem i dbam o to, żeby Twoja firma była łatwa do znalezienia w sieci.</p>
+                    <p>Tworzę proste, szybkie strony internetowe i konfiguruję Wizytówki Google dla rzemieślników oraz lokalnych firm z Olsztyna, Gietrzwałdu i okolic. Zamiast rozbudowanych systemów stawiam na lekki kod, który błyskawicznie wczytuje się na telefonie.</p>
+                    <p>Jestem uczniem technikum informatycznego i pracujesz bezpośrednio ze mną, a nie z wielką agencją. Mówię prostym językiem i dbam o to, żeby Twoja firma była łatwa do znalezienia w sieci.</p>
                 </div>
             </div>
         </section>
 
-        
         <section class="section" id="faq" aria-labelledby="faq-title">
             <div class="container container--narrow">
                 <header class="section__head">
@@ -274,7 +271,6 @@
             </div>
         </section>
 
-        
         <section class="section section--alt" id="kontakt" aria-labelledby="kontakt-title">
             <div class="container contact">
                 <div class="contact__info">
@@ -282,16 +278,17 @@
                     <p>Chcesz, żeby klienci z okolic w końcu znaleźli Twoją firmę? Zadzwoń lub napisz – odpowiadam szybko. Wycena jest darmowa, a płacisz dopiero po akceptacji projektu.</p>
 
                     <ul class="contact__list">
-                        <li><span>Obszar działania</span> Olsztyn i okolice</li>
+                        <li><span>Obszar działania</span> Olsztyn, Gietrzwałd i okolice</li>
                         <li><span>Telefon</span> <a href="tel:+48662816741">+48 662 816 741</a></li>
                         <li><span>E-mail</span> <a href="mailto:michalowski.dev@wp.pl">michalowski.dev@wp.pl</a></li>
                     </ul>
                 </div>
 
                 <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- WKLEJ SWÓJ KLUCZ Z WEB3FORMS: -->
                     <input type="hidden" name="access_key" value="TUTAJ-WKLEJ-SWÓJ-KLUCZ">
                     <input type="hidden" name="subject" value="Nowe zapytanie ze strony Szymon-Dev">
-                    <!-- Pułapka na boty (Web3Forms odrzuca zgłoszenia z zaznaczonym polem) -->
+                    <input type="hidden" name="redirect" value="https://szymon-dev.pl/dziekuje.html">
                     <input type="checkbox" name="botcheck" class="visually-hidden" tabindex="-1" autocomplete="off">
 
                     <div class="field">
@@ -328,12 +325,12 @@
 
     <footer class="site-footer">
         <div class="container site-footer__inner">
-            <p>&copy; 2026 Szymon Michalowski. Wszelkie prawa zastrzeżone.</p>
-            <p>Projekt i realizacja: <a href="https://szymonmichalowski.pl">Szymon Michalowski</a></p>
+            <p>&copy; 2026 Szymon Michałowski. Wszelkie prawa zastrzeżone.</p>
+            <p>Projekt i realizacja: <a href="#top">Szymon Michałowski (Szymon-Dev)</a></p>
         </div>
     </footer>
 
-    <!-- Przyklejony pasek na telefonie: szybki kontakt zawsze pod kciukiem -->
+    <!-- Przyklejony pasek na telefonie -->
     <div class="mobile-bar">
         <a class="btn btn--secondary" href="tel:+48662816741">Zadzwoń</a>
         <a class="btn btn--primary" href="#kontakt">Darmowa wycena</a>
@@ -347,7 +344,6 @@
             });
         });
 
-        // Pasek mobilny znika, gdy widoczna jest sekcja kontaktu
         var bar = document.querySelector('.mobile-bar');
         var contact = document.getElementById('kontakt');
         if (bar && contact && 'IntersectionObserver' in window) {
